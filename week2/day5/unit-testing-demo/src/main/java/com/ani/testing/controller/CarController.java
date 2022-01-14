@@ -21,6 +21,11 @@ public class CarController {
         car.setMfg(Date.valueOf(LocalDate.now()));
         return ResponseEntity.ok(car);
     }
+    @GetMapping("/{id}")
+    public ResponseEntity<Integer> getCarById(@PathVariable Long id)  {
+
+        return ResponseEntity.ok(100);
+    }
     @PostMapping
     public ResponseEntity<Car> saveCar(@RequestBody Car car) {
         return new ResponseEntity<>(car, HttpStatus.CREATED);
