@@ -4,13 +4,87 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c3adfdb-a620-4ad8-8564-69d93bfebd20" name="Changes" comment="" />
+    <list default="true" id="4c3adfdb-a620-4ad8-8564-69d93bfebd20" name="Changes" comment="pom.xml">
+      <change afterPath="$PROJECT_DIR$/../day2/java-simple-app/src/test/java/ClassTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day2/java-simple-app/src/test/java/clsobj/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/.idea/day3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/jdbc-connectivity/src/main/java/parallel/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4/db/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4/db/src/main/java/db/Connectivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4/db/src/main/java/service/DbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4/db/src/test/java/ConnectivityTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/AbcCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/Atm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/CardFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/CardProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/InvalidBankException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/PqrCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/XyzCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AbcCardTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AtmTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CardFactoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CardProviderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/InvalidExceptionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PqrCardTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/XyzCardTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/java-simple-app/src/test/java/VariableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day2/java-simple-app/src/test/java/VariableTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/java-simple-app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/java-simple-app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/java-simple-app/target/test-classes/Addition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/java-simple-app/target/test-classes/JavaBasicTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/java-simple-app/target/test-classes/VariableTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/java_newcocepts/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../day3/java_newcocepts/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/java_newcocepts/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../day3/java_newcocepts/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/java_newcocepts/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../day3/java_newcocepts/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/java_newcocepts/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../day3/java_newcocepts/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/java_newcocepts/target/surefire-reports/AnimalTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../day3/java_newcocepts/target/surefire-reports/AnimalTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/java_newcocepts/target/surefire-reports/TEST-AnimalTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day3/java_newcocepts/target/surefire-reports/TEST-AnimalTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/java_otherconcepts/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/java_otherconcepts/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/java_otherconcepts/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/java_otherconcepts/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/java_otherconcepts/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/java_otherconcepts/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3/java_otherconcepts/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design pattern/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design pattern/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design pattern/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design pattern/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design pattern/design pattern.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2022-01-07T13-01-43_323.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CarSingletonTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CarSingletonTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CarSingletonTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="23MU3M0JhEIIwi0EFV1KiouaAnB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,6 +92,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day4" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -28,6 +104,40 @@
       <option name="presentableId" value="Default" />
       <updated>1641543251525</updated>
     </task>
+    <task id="LOCAL-00001" summary="pom.xml">
+      <created>1641543322603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641543322603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom.xml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/factory/XyzCard.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,2 +1,4 @@
+factory\CardProvider.class
 singleton\CarSingleton.class
+factory\AbcCard.class
 singleton\Car.class
