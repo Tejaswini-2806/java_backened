@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a12f3738-a2a7-440e-bd5b-5468bead64de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../case-study/doctor-module/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case-study/doctor-module/src/main/java/com/tej/doctor/doctormodule/controller/DoctorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case-study/doctor-module/src/main/java/com/tej/doctor/doctormodule/domain/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case-study/doctor-module/src/main/java/com/tej/doctor/doctormodule/dto/AppResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case-study/doctor-module/src/main/java/com/tej/doctor/doctormodule/dto/DoctorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case-study/doctor-module/src/main/java/com/tej/doctor/doctormodule/repository/DoctorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case-study/doctor-module/src/main/java/com/tej/doctor/doctormodule/service/DoctorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case-study/doctor-module/src/main/java/com/tej/doctor/doctormodule/service/DoctorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case-study/doctor-module/src/test/java/com/tej/doctor/doctormodule/controller/DoctorControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case-study/doctor-module/src/test/java/com/tej/doctor/doctormodule/domain/DoctorTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case-study/doctor-module/src/test/java/com/tej/doctor/doctormodule/repository/DoctorRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case-study/doctor-module/src/test/java/com/tej/doctor/doctormodule/service/DoctorServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case-study1/src/main/java/BnkDbService/BnkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case-study1/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case-study1/src/main/java/db/BankingConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case-study1/src/main/java/menu/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case-study1/src/test/java/BnkConnectionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_newcocepts/target/classes/collections/CollectionDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_newcocepts/target/classes/collections/CollectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_newcocepts/target/classes/generics/GenericBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_newcocepts/target/classes/generics/NormalBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_newcocepts/target/surefire-reports/2022-01-05T20-01-29_292.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_newcocepts/target/surefire-reports/2022-01-05T20-01-54_563.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_newcocepts/target/surefire-reports/GenericsTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_newcocepts/target/surefire-reports/TEST-GenericsTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_newcocepts/target/test-classes/GenericsTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-connectivity/src/main/java/parallel/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-connectivity/target/classes/parallel/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4/.idea/day4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week2/day1/case-study1/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week2/day1/case-study1/src/main/java/db/Connectivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week2/day1/case-study1/src/main/java/menu/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week2/day4/basic-auth/src/main/java/com/ani/security/basicauth/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week2/day4/basic-auth/src/main/java/com/ani/security/basicauth/controller/BankController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/day2/dockerized-app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/day2/dockerized-app/src/test/java/com/ani/docker/controller/AppControllerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/Simple_Banking_System/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/Simple_Banking_System/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/Simple_Banking_System/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/Simple_Banking_System/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_newcocepts/src/main/java/oop/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_newcocepts/src/main/java/oop/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_newcocepts/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/java_newcocepts/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_newcocepts/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/java_newcocepts/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_newcocepts/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/java_newcocepts/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_newcocepts/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/java_newcocepts/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_newcocepts/target/surefire-reports/AnimalTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java_newcocepts/target/surefire-reports/AnimalTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_newcocepts/target/surefire-reports/TEST-AnimalTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_newcocepts/target/surefire-reports/TEST-AnimalTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_otherconcepts/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day1/case-study-week-1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day1/case-study-week-1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day1/case-study-week-1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day1/case-study-week-1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day1/case-study-week-1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day1/case-study-week-1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day1/case-study-week-1/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day1/case-study-week-1/src/main/java/db/Connectivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day1/case-study-week-1/src/main/java/menu/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day1/case-study-week-1/src/main/java/service/DbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day1/case-study1/src/main/java/service/DbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day1/detail-understanding-aspects-oriented-prgming/src/main/java/com/ani/logging/CarLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/day1/detail-understanding-aspects-oriented-prgming/src/main/java/com/ani/logging/CarLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day4/week-bank-rest-app/src/main/java/com/weektwo/casestudy/WeekBankRestAppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day4/week-bank-rest-app/src/main/java/com/weektwo/casestudy/controller/BankController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day4/week-bank-rest-app/src/main/java/com/weektwo/casestudy/domain/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day4/week-bank-rest-app/src/main/java/com/weektwo/casestudy/dto/AmountTransferDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day4/week-bank-rest-app/src/main/java/com/weektwo/casestudy/dto/AppResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day4/week-bank-rest-app/src/main/java/com/weektwo/casestudy/exception/InvalidAmountException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day4/week-bank-rest-app/src/main/java/com/weektwo/casestudy/repository/BankRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day4/week-bank-rest-app/src/main/java/com/weektwo/casestudy/service/BankService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week2/day4/week-bank-rest-app/src/main/java/com/weektwo/casestudy/service/BankServiceImpl.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="23GQI0TAPBsLF66Sb2VsHviesn5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a12f3738-a2a7-440e-bd5b-5468bead64de" name="Changes" comment="" />
+      <created>1641357863018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641357863018</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

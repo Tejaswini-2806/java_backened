@@ -1,3 +1,7 @@
-oop\Animal.class
 oop\Tiger.class
+collections\CollectionDemo.class
 oop\GpsListener.class
+oop\Animal.class
+collections\CollectionDemo$1.class
+generics\NormalBox.class
+generics\GenericBox.class
