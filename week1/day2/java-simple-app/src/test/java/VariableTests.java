@@ -16,8 +16,7 @@ public class VariableTests{
 
     @DisplayName("Check variable values are incorrect")
     @Test
-    void learVariablesInvalidCase() {
-        int osNum = 12;
+    void learVariablesInvalidCase() {        int osNum = 12;
         int expectedValue = 13;
         Assertions.assertNotEquals(expectedValue, osNum);
     }
