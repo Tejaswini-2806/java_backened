@@ -25,10 +25,10 @@ public class DoctorRepositoryTests {
     public void testCreateDoctor() {
         var doctor = new Doctor();
         doctor.setId(100L);
-        doctor.setName("vinay");
+        doctor.setName("Tejaswini");
         doctor.setSpec("neurologist");
-        doctor.setHsLoc("bellary");
-        doctor.setHsNm("govt hospital");
+        doctor.setHsLoc("bangalore");
+        doctor.setHsNm("citi hospital");
         doctor.setVisit(true);
 
         repository.save(doctor);

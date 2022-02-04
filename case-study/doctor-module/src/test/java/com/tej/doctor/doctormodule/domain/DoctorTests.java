@@ -12,9 +12,9 @@ public class DoctorTests {
         Assertions.assertNotNull(doc);
     }
 
-    @DisplayName("Domain : Checking Getters")
+    @DisplayName("Domain : Checking Getters and Setters")
     @Test
-    void testObjectGetters() {
+    void testObjectGettersSetters() {
 
         var doc = new Doctor();
         doc.setId(10L);

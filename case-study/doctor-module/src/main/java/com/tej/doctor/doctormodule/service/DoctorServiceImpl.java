@@ -3,6 +3,8 @@ package com.tej.doctor.doctormodule.service;
 import com.tej.doctor.doctormodule.domain.Doctor;
 import com.tej.doctor.doctormodule.dto.AppResponse;
 import com.tej.doctor.doctormodule.dto.DoctorDto;
+import com.tej.doctor.doctormodule.exception.InvalidIdException;
+import com.tej.doctor.doctormodule.exception.NoDoctorsFoundException;
 import com.tej.doctor.doctormodule.repository.DoctorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -13,14 +15,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class DoctorServiceImpl  implements DoctorService{
+public class DoctorServiceImpl  implements DoctorService {
 
-@Autowired
+    @Autowired
     public DoctorRepository repository;
 
     @Override
     public List<Doctor> allRegisteredDoctors() {
-       var doc =  repository.findAll();
+        var doc = repository.findAll();
         return doc;
     }
 
@@ -39,8 +41,10 @@ public class DoctorServiceImpl  implements DoctorService{
     }
 
     @Override
-    public DoctorDto updateDocInfo(DoctorDto doctor) {
-        Doctor doc = repository.findById(doctor.getId()).orElse(null);
+    public DoctorDto updateDocInfo(DoctorDto doctor) throws InvalidIdException {
+        Doctor doc = repository.findById(doctor.getId()).orElseThrow(
+                () -> new InvalidIdException("enter a valid id :")
+        );
         var doc1 = new Doctor();
         doc1.setId(doctor.getId());
         doc1.setName(doctor.getName());
@@ -62,7 +66,6 @@ public class DoctorServiceImpl  implements DoctorService{
     public ResponseEntity<AppResponse<List<DoctorDto>>> findVisitingDoctorBySpec(String Specialization) {
         return null;
     }
-
 
 
     @Override
@@ -88,7 +91,7 @@ public class DoctorServiceImpl  implements DoctorService{
     }
 
     @Override
-    public List<DoctorDto> ListAll(String name) {
+    public List<DoctorDto> ListAll(String name) throws NoDoctorsFoundException {
         List<Doctor> doctors = repository.findAll();
         List<DoctorDto> dtos = new ArrayList<>();
         for (int i = 0; i < doctors.size(); i++) {
@@ -103,18 +106,26 @@ public class DoctorServiceImpl  implements DoctorService{
                     doctor.getVisit()
             );
             dtos.add(dto);
+            if (dtos.isEmpty()) {
+                throw new NoDoctorsFoundException("No Doctors found in Registered list ");
+            }
         }
         return dtos;
 
 
     }
+
     @Override
     public List<DoctorDto> findVisitingDoctorBySpecialization(String spec) {
+        return null;
+    }
 
+    @Override
+    public List<DoctorDto> findDoctorBySpec(String spec) throws NoDoctorsFoundException {
         List<Doctor> dto = repository.findAll();
         List<DoctorDto> dto1 = dto.stream()
-                .filter(n-> n.getVisit()== true  && n.getSpec().equals(spec))
-                .map (doc -> new DoctorDto(
+                .filter(n -> n.getSpec().equals(spec))
+                .map(doc -> new DoctorDto(
                         doc.getId(),
                         doc.getName(),
                         doc.getSpec(),
@@ -123,8 +134,9 @@ public class DoctorServiceImpl  implements DoctorService{
                         doc.getVisit()
                 ))
                 .collect(Collectors.toList());
+        if (dto1.isEmpty()) {
+            throw new NoDoctorsFoundException("No Doctors found for given specialization ");
+        }
         return dto1;
     }
-
-
 }
